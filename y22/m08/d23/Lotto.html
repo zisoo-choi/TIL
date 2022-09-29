@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotto</title>
+    <style>
+        body{
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .smallBox{
+            width: 500px;
+            height: 200px;
+            border-radius: 20px;
+            background-color: white;
+        }
+
+        .textBox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lotto 추첨기</h1>
+
+    <div class="smallBox">
+        <div class="textBox">
+            <h3>1등 대박나자 !! </h3>
+            <h5>로또 맛집이 되는 그날까지 존버단</h5>
+        </div>
+        <div class="lottoNumBox">
+            <script class="Num">
+                var lotto = [];
+                
+                while(lotto.length < 6){
+                    var num = parseInt(Math.random()*45+1);
+
+                    if(lotto.indexOf(num) == -1){
+                        lotto.push(num);
+                    }
+                    lotto.sort((a,b) => a-b);
+                }
+                document.write(lotto);
+            </script>
+        </div>
+    </div>
+</body>
+</html>
