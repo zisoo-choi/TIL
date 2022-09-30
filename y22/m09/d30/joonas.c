@@ -1,4 +1,4 @@
-/*πÈ¡ÿ 10926
+/*Î∞±Ï§Ä 10926
 #include <stdio.h>
 int main(){
 	char id[50];
@@ -7,7 +7,7 @@ int main(){
 	return 0;
 }*/
 
-/*πÈ¡ÿ 18108 
+/*Î∞±Ï§Ä 18108 
 #include <stdio.h>
 int main(){
 	int y=0;
