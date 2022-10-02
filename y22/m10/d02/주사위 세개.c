@@ -17,6 +17,9 @@ int main(){
 			else if(equl == c){
 				equl = c;
 			}
+			else{
+				equl = b;
+			}
 			rel = 1000 + equl * 100;
 			printf("%d", rel);
 		}
