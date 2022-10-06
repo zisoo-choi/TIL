@@ -3,20 +3,20 @@ int main(){
 	int n=0, i=0, max=0;
 	int grade[1000];
 	
-	scanf_s("%d", &n); //½ÃÇè º» °ú¸ñÀÇ °³¼ö N 
+	scanf_s("%d", &n); //ì‹œí—˜ ë³¸ ê³¼ëª©ì˜ ê°œìˆ˜ N
 	
 	for(i=0; i<n; i++){
-		scanf_s("%d", &grade[i]); //ÇöÀç ¼ºÀû grade 
+		scanf_s("%d", &grade[i]); //í˜„ì¬ ì„±ì  grade 
 		
 		if(max < grade[i]){ 
-			max = grade[i]; //¼ºÀû Áß ÃÖ°íÁ¡
+			max = grade[i]; //ì„±ì  ì¤‘ ìµœê³ ì 
 		}
 	}
 	
 	double average=0;
 	
 	for(i=0; i<n; i++){
-		average+= (double)grade[i]/(double)max*100; //Á¡¼ö/ÃÖ°íÁ¡*100 
+		average+= (double)grade[i]/(double)max*100; //ì ìˆ˜/ìµœê³ ì *100 
 	}
 	
 	printf("%.2lf", average/n);
