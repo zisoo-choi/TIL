@@ -1,21 +1,25 @@
 #include <stdio.h>
-#include <string.h>
 int main(){
-	int c=0, i=0, j=0, k=0;
+	int c=0, i=0, j=0;
 	scanf_s("%d", &c);
 	
-	int n=0, grade[100];
+	int n=0, grade[1000];
+	double average[100];
 	
 	for(i=0; i<c; i++){
-		double average=0;
 	 	scanf_s("%d", &n);
 	 	
 	 	for(j=0; j<n; j++){
 	 		scanf_s("%d", &grade[j]);
-	 		
-	 		average += (double)grade[j];
-			
-		 }printf("average = %.2lf%%\n", average/(double)n);
-	 }
+	 		average[i] += (double)grade[j];
+		}
+		average[i] = average[i]/(double)n;
+		
+		int cnt=0;
+		for(j=0; j<n; j++){
+	 		if(average[i] < grade[j]) cnt++;
+		}
+		printf("%.3lf%%\n", (double)cnt*100/n);
+	}
 	return 0;
 }
