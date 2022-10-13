@@ -26,7 +26,7 @@ int main(){
 	
 	scanf_s("%d", &n);
 
-	char num[100];
+	char num[n];
 	do{
 		scanf_s("%s", &num[j]);
 	}
