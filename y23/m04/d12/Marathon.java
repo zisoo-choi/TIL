@@ -1,3 +1,5 @@
+package y23.m04.d12;
+
 import java.util.Arrays;
 
 public class Marathon {
