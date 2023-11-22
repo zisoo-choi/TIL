@@ -26,7 +26,7 @@ int n = Integer.parseInt(s, 2);
 System.out.print(n);
 // output: 6
 ```
-<br><br>
+<br>
 
 ### 생각
 1시간 내로 못 풀었고, 1시간 30분이 걸려서까지 씨름을 하다가 <br>
