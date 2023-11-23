@@ -23,6 +23,7 @@ int i = list.get(0).intValue();
 - 문자열 -> 래퍼 클래스 : valueOf(""), new Integer(""), new Byte("")
 - 래퍼 클래스 -> 문자열 : toString()
 <br>
+
 ### 오토박싱 & 언박싱
 프로그래머가 사용하기 쉽게 자동으로 컴파일러가 코드를 추가해주는 것<br>
 
