@@ -1,4 +1,4 @@
-package y23.m12;
+package y23.m12.d01;
 
 public class NextMaximum {
     public static void main(String[] args) {
