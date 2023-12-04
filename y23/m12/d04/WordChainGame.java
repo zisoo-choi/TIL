@@ -27,8 +27,10 @@ public class WordChainGame {
         // 두 번째 단어부터 반복
         for (int i = 1; i < words.length; i++) {
             // 이미 사용한 단어인지 또는 끝말잇기 규칙에 맞지 않는지 확인
+                                             // words[i].charAt(0) : 현 글자의 첫 번재 글자
+                                                                  // words[i - 1].charAt(words[i - 1].length() - 1) : 앞 글자의 마지막 글자
             if (usedWords.contains(words[i]) || words[i].charAt(0) != words[i - 1].charAt(words[i - 1].length() - 1)) {
-                // 결과 배열에 번호와 차례 저장
+                // 탈락자 정보 저장 | [0]: 탈락자, [1]: 라운드
                 answer[0] = (i % n) + 1;  // 번호는 1부터 시작하므로 +1
                 answer[1] = (i / n) + 1;  // 차례는 1부터 시작하므로 +1
                 // 문제의 조건에 따라 첫 번째 오류가 발생한 경우 바로 반복문 종료
