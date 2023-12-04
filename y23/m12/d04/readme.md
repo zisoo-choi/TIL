@@ -1,5 +1,5 @@
 # 2022.12.04
-프로그래머스 > 코딩테스트 입문 > 연습문제 > [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)
+프로그래머스 > 코딩테스트 연습 > Summer/Winter Coding(~2018) > [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)
 
 ### HashSet?
 [참고 블로그](https://velog.io/@acacia__u/hashSet)
