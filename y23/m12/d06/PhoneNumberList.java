@@ -19,10 +19,14 @@ public class PhoneNumberList {
 
         for(int i = 0; i < phone_book.length; i++){
             for(int j = 1; j < phone_book[i].length(); j++){
-                if(set.contains(phone_book[i].substring(0, j))) {
+                String prefix = phone_book[i].substring(0, j);
+                System.out.println("Checking prefix: " + prefix);
+                if (set.contains(prefix)) {
+                    System.out.println("Duplicate prefix found: " + prefix);
                     return false;
                 }
             }
+            System.out.println();
         }
         return answer;
     }
