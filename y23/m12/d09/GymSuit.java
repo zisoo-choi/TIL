@@ -5,7 +5,7 @@ public class GymSuit {
         Solution solution = new Solution();
         int n = 5;
         int[] lost = {2, 4};
-        int[] reserve = {1, 3, 5};
+        int[] reserve = {3};
         int result = solution.solution(n, lost, reserve);
         System.out.println("결과: "+result);
     }
@@ -14,10 +14,10 @@ public class GymSuit {
 class Solution {
     public int solution(int n, int[] lost, int[] reserve) {
         int answer = 0;
-        int[] arr = new int[n+1];
+        int[] arr = new int[n+2];
 
         // 초기화 (체육복 존재 시 1)
-        for(int i = 1; i < n+1; i++){
+        for(int i = 1; i <= n; i++){
             arr[i] = 1;
         }
 
@@ -41,19 +41,18 @@ class Solution {
                     arr[i]++;
                 }
                 // 뒤 친구가 이하 동문 2개인 경우
-                if(arr[i+1] == 2) {
+                if(arr[i] != 1 && arr[i+1] == 2) {
                     arr[i+1]--;
                     arr[i]++;
                 }
             }
         }
 
-        for(int i = 1; i < n+1; i++){
-            if(arr[i] > 0){
+        for(int i = 1; i <= n; i++){
+            if(arr[i] >= 1){
                 answer++;
             }
         }
-
         return answer;
     }
 }
