@@ -1,13 +1,10 @@
-package y23.m12.d10;
+# 2022.12.10
+프로그래머스 > 코딩테스트 연습 > 탐욕법(Greedy) > [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860?language=java)
 
-public class JoyStick {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int i = solution.solution("JEROEN");
-        System.out.println("결과: "+ i);
-    }
-}
-
+### 생각
+[참고한 블로그](https://yummy0102.tistory.com/359)<br>
+너무 어렵다. 이해가 잘 안가서 내일 다시 봐야할 것 같다.
+```
 class Solution {
     public int solution(String name) {
         // 조이스틱 조작 횟수 누적
@@ -45,3 +42,9 @@ class Solution {
         return answer + move;
     }
 }
+```
+일단 주석을 달고, 직접 그려가면서 해보고 있는데<br>
+예시를 JEROEN 라고 했을 때, move = 5 가 나와야 하는 이유를 모르겠다.<br>
+JAAX라고 하면 J(9), X(3) 그리고 J에서 X로 커서를 옮길 때(1) => 13 까지 알겠는데<br>
+JEROEN라 하면 J(9), E(4), R(9), O(12), E(4), N(13) = > 51 이 나와야 하는데 move가 5가 되어, 56이 답이 된다.<br>
+왜 move가 생기는 걸까?
