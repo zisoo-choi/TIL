@@ -3,7 +3,7 @@ package y23.m12.d10;
 public class JoyStick {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int i = solution.solution("JEROEN");
+        int i = solution.solution("JAAPA");
         System.out.println("결과: "+ i);
     }
 }
@@ -41,6 +41,7 @@ class Solution {
             move = Math.min(move, (name.length() - index) * 2 + i);
         }
 
+        System.out.println("move: "+move);
         // 조작한 횟수(answer)와 최소 이동 횟수(move)를 합하여 결과를 반환
         return answer + move;
     }
