@@ -8,7 +8,7 @@ public class AddProcession {
         int[][] result = solution.solution(arr1, arr2);
 
         for(int i = 0; i < arr1.length; i++){
-            for(int j = 0; j < arr2.length; j++){
+            for(int j = 0; j < arr2[0].length; j++){
                 System.out.println("result["+i+"]["+j+"]: "+result[i][j]);
             }
         }
