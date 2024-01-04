@@ -1,5 +1,5 @@
 
-# 2022.12.17
+# 2023.12.17
 
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [가운데 글자 가져오기](https://school.programmers.co.kr/learn/courses/30/lessons/12903)
 

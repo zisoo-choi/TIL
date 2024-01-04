@@ -1,4 +1,4 @@
-# 2022.12.05
+# 2023.12.05
 프로그래머스 > 코딩테스트 연습 > 해시 > [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
 
 ### Math.min(a, b);

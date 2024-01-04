@@ -1,4 +1,4 @@
-# 2022.12.14
+# 2023.12.14
 
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [핸드폰 숫자 가리기](https://school.programmers.co.kr/learn/courses/30/lessons/12948)
 

@@ -1,4 +1,4 @@
-# 2022.12.10
+# 2023.12.10
 프로그래머스 > 코딩테스트 연습 > 탐욕법(Greedy) > [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860?language=java)
 
 ### 생각

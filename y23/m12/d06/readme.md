@@ -1,4 +1,4 @@
-# 2022.12.06
+# 2023.12.06
 프로그래머스 > 코딩테스트 연습 > 해시 > [전화번호 목옥](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 
 ### substring()

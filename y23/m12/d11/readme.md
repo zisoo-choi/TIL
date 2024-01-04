@@ -1,4 +1,4 @@
-# 2022.12.11
+# 2023.12.11
 
 프로그래머스 > 코딩테스트 연습 > 탐욕법(Greedy) > [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)
 

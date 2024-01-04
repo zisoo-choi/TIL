@@ -1,4 +1,4 @@
-# 2022.11.29
+# 2023.11.29
 
 <h5>0단계 문제</h5>
 프로그래머스 > 코딩테스트 입문 > [점의 위치 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120841)</br>

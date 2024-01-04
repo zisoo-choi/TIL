@@ -1,4 +1,4 @@
-# 2022.12.31
+# 2023.12.31
 프로그래머스 > 코딩테스트 연습 > 2021 카카오 채용연계형 인턴십 > [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301/solution_groups?language=java)
 
 ---

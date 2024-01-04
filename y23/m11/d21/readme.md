@@ -1,4 +1,4 @@
-# 2022.11.21
+# 2023.11.21
 
 프로그래머스 > 월간 코드 챌린지 시즌1 > [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
 

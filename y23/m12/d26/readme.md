@@ -1,4 +1,4 @@
-# 2022.12.26
+# 2023.12.26
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930#)
 
 ---

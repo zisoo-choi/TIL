@@ -1,4 +1,4 @@
-# 2022.12.29
+# 2023.12.29
 프로그래머스 > 코딩테스트 연습 > 완전탐색 > [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
 
 ---

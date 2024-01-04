@@ -1,4 +1,4 @@
-# 2022.12.01
+# 2023.12.01
 프로그래머스 > 코딩테스트 입문 > 연습문제 > [다음 큰 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12911)
 
 ### 10진수 -> 2진수 String

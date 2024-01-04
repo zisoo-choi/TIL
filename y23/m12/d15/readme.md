@@ -1,4 +1,4 @@
-# 2022.12.15
+# 2023.12.15
 
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951)
 

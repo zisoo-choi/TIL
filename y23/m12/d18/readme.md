@@ -1,5 +1,5 @@
 
-# 2022.12.18
+# 2023.12.18
 
 프로그래머스 > 코딩테스트 연습 > 월간 코드 챌린지 시즌1 > [내적](https://school.programmers.co.kr/learn/courses/30/lessons/70128)<br>
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [수박수박수박수박수박수?](https://school.programmers.co.kr/learn/courses/30/lessons/12922)<br>

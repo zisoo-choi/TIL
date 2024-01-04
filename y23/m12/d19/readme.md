@@ -1,5 +1,5 @@
 
-# 2022.12.19
+# 2023.12.19
 
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [문자열 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12917#)
 

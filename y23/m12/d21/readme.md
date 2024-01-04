@@ -1,5 +1,5 @@
 
-# 2022.12.21
+# 2023.12.21
 
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [문자열 다루기 기본](https://school.programmers.co.kr/learn/courses/30/lessons/12918?language=java)
 

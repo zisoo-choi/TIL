@@ -1,4 +1,4 @@
-# 2022.12.02
+# 2023.12.02
 프로그래머스 > 코딩테스트 입문 > 연습문제 > [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)
 
 ## Arrays.sort 란?

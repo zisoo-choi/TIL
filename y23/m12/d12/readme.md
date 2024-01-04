@@ -1,4 +1,4 @@
-# 2022.12.13
+# 2023.12.13
 
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910)
 

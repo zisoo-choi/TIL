@@ -1,4 +1,4 @@
-# 2022.12.22
+# 2023.12.22
 
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [행렬의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/12950)
 

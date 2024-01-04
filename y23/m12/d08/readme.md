@@ -1,4 +1,4 @@
-# 2022.12.08
+# 2023.12.08
 프로그래머스 > 코딩테스트 연습 > 해시 > [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
 
 ### 절차

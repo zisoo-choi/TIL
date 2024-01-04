@@ -1,4 +1,4 @@
-# 2022.12.03
+# 2023.12.03
 프로그래머스 > 코딩테스트 입문 > 연습문제 > [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945)
 
 ### 피보나치 수?

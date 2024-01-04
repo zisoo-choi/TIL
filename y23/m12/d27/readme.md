@@ -1,4 +1,4 @@
-# 2022.12.27
+# 2023.12.27
 프로그래머스 > 코딩테스트 연습 > 연습문제 > [크기가 작은 부분 문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355)
 
 ---

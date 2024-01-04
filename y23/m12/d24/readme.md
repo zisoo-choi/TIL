@@ -1,4 +1,4 @@
-# 2022.12.24
+# 2023.12.24
 프로그래머스 > 코딩테스트 연습 > 월간 코드 챌린지 시즌1 > [3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)
 
 ---
