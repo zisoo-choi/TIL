@@ -16,14 +16,21 @@ public class StringSort {
 
 class Solution {
     public String[] solution(String[] strings, int n) {
-        Arrays.sort(strings, (a, b) -> {
-            if (a.charAt(n) == b.charAt(n)) {
-                return a.compareTo(b); // 인덱스 n의 문자가 같으면 사전순으로 정렬
-            } else {
-                return Character.compare(a.charAt(n), b.charAt(n));
-            }
-        });
+        for (int i = 0; i < strings.length; i++) {
+            for (int j = i + 1; j < strings.length; j++) {
+                char char1 = strings[i].charAt(n);
+                char char2 = strings[j].charAt(n);
 
+                // 두 문자열의 인덱스 n의 문자가 서로 다르면
+                // 또는
+                // 두 문자열의 인데스 n의 문자가 같으면 두 문자열 전체를 비교하여 정렬한다.
+                if (char1 > char2 || (char1 == char2 && strings[i].compareTo(strings[j]) > 0)) {
+                    String temp = strings[i];
+                    strings[i] = strings[j];
+                    strings[j] = temp;
+                }
+            }
+        }
         return strings;
     }
 }
